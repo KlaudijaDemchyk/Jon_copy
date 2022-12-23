@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('../Fonts/Heebo-Medium.eot');
+    src: url('../Fonts/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/Heebo-Medium.woff2') format('woff2'),
+    url('../Fonts/Heebo-Medium.woff') format('woff'),
+    url('../Fonts/Heebo-Medium.ttf') format('truetype'),
+    url('../Fonts/Heebo-Medium.svg#Heebo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../Fonts/Vollkorn-Regular.eot');
+    src: url('../Fonts/Vollkorn-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/Vollkorn-Regular.woff2') format('woff2'),
+    url('../Fonts/Vollkorn-Regular.woff') format('woff'),
+    url('../Fonts/Vollkorn-Regular.ttf') format('truetype'),
+    url('../Fonts/Vollkorn-Regular.svg#Vollkorn-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+header{
+    padding-top: 27px;
+}
+.container{
+       max-width: 1032px;
+       margin: auto;
+
+}
+.d_flex{
+    display: flex;
+}
+.justify_content{
+    justify-content: flex-end;
+}
+#menu{
+    display: flex;
+    list-style: none;
+}
+header nav li{
+    margin-left: 33px;
+}
+header nav li a{
+    font-family: 'Heebo';
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #000000;
+}
+/* Main Block*/
+.main_banner{
+    padding-top: 140px;
+    padding-bottom: 71px;
+}
+.main_banner_wrap{
+    max-width: 858px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: start;
+}
+.main_banner_wrap  div{
+    max-width: 497px;
+}
+.main_banner h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 48px;
+}
+.main_banner p{
+     font-family: 'Heebo';
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     margin-bottom:38px;
+ }
+.main_banner a{
+    background: #FF6464;
+    border-radius: 2px;
+    padding:13px 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.main_banner_image{
+    max-width:243px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main_banner_image img{
+    width:100%;
+    display: block;
+}
+.featured_works {
+    padding-top: 15px;
+    padding-bottom: 83px;
+}
+.featured_works_wrap {
+    max-width: 858px;
+    margin: auto;
+}
+.featured_works_wrap h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    margin-bottom: 22px;
+}
+.featured_works_content_wrap{
+    padding-bottom: 15px;
+    margin-bottom: 29px;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+}
+.featured_works_content img{
+    max-width:246px;
+}
+.featured_works_content {
+    margin-left: 18px;
+}
+.featured_works_content h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+}
+.featured_works_content span{
+    padding: 0px 10px;
+    background: #142850;
+    border-radius: 16px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-right: 26px;
+    display: inline;
+    }
+.featured_works_content h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    display: inline;
+}
+.featured_works_content p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.form{
+    background-color: #000000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.form_wrap{
+    max-width: 564px;
+    margin: auto;
+    text-align: center;
+}
+.form label{
+    display: none;
+}
+.form_name{
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    background-color: rgba(255, 255, 255, 0.18);
+    font-family: 'Vollkorn';
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+}
+.form_email{
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Vollkorn';
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+}
+.form_budget{
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    background-color: rgba(255, 255, 255, 0.18);
+    font-family: 'Vollkorn';
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+}
+.form_message{
+    width: 100%;
+    height: 127px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Vollkorn';
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    resize: none;
+}
+.form button {
+    background-color: transparent;
+    border: solid 1px #7EC4BD;
+    height: 52px;
+    font-family: 'Vollkorn';
+    font-size: 17px;
+    ine-height: 22px;
+    color: #8BCAC3;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 20px;
+    }
+/* Footer */
+footer{
+    padding-top: 51px;
+    padding-bottom: 54px;
+}
+.social_icon{
+    max-width: 1032px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.social_icon ul{
+    list-style: none;
+    display: flex;
+}
+.social_icon li{
+    margin: 17px;
+}
+.social_icon img{
+    width:100%;
+    display: block;"
+}
+.copyright{
+    margin-top: 20px;
+}
+.copyright p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center ;
+    color: #21243D;
+}
+.name input:focus{
+    online: none;
+    background-color: #FF6464;
+}
+/*.name:first-of-type input{
+    background: rgba(255, 255, 255, 0.2);
+}
+.name:nth-child(2)  input{
+    background: rgba(255, 255, 255, 0.2);
+}
+.btn_read {
+    background: black;
+
+}*/
