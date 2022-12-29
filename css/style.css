@@ -56,6 +56,13 @@ header nav li a{
     text-decoration: none;
     color: #000000;
 }
+#red_a {
+    font-family: 'Heebo';
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: red;
+}
 /* Main Block*/
 .main_banner{
     padding-top: 140px;
@@ -108,7 +115,96 @@ header nav li a{
     width:100%;
     display: block;
 }
-.featured_works {
+/*recent post*/
+.recent_post {
+    padding-top: 7px;
+    padding-bottom: 32px;
+    background-color: #EDF7FA;
+}
+.recent_post_container {
+    max-width: 856px;
+    margin: auto;
+}
+.recent_post_container_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.recent_post_container_wrap h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    align-items: center;
+}
+.recent_post_container_wrap a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    text-decoration: none;
+    color: #00A8CC;
+    padding-top: 20px;
+}
+
+.recent_post_container   article{
+    max-width: 418px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.discription {
+    width: 100%;
+    padding: 24px 7px 23px 21px;
+    box-sizing: border-box;
+}
+.discription h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+}
+.discription span{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+    margin-bottom: 21px;
+}
+.discription span:last-of-type{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 21px;
+}
+.discription p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+     color: #21243D;
+}
+/*feature works*/
+.featured_works{
     padding-top: 15px;
     padding-bottom: 83px;
 }
@@ -173,6 +269,7 @@ header nav li a{
     line-height: 24px;
     color: #21243D;
 }
+/*form*/
 .form{
     background-color: #000000;
     padding-top: 70px;
@@ -290,13 +387,62 @@ footer{
     online: none;
     background-color: #FF6464;
 }
-/*.name:first-of-type input{
-    background: rgba(255, 255, 255, 0.2);
+/*page Blog*/
+.main_blog {
+    padding-top: 106px;
+    padding-bottom: 53px;
 }
-.name:nth-child(2)  input{
-    background: rgba(255, 255, 255, 0.2);
+.main_blog_container{
+    max-width: 682px;
+    margin: auto;
 }
-.btn_read {
-    background: black;
-
-}*/
+.main_blog_container_wrap {
+    padding-bottom: 29px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 29px;
+}
+.main_blog_container  h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.main_blog_container h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.main_blog_container span{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+}
+.main_blog_container span:last-of-type{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+    line-height: 29px;
+    border: none;
+}
+.main_blog_container p{
+    margin-top: 15px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
