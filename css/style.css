@@ -159,7 +159,7 @@ header nav li a{
     display: flex;
     justify-content: space-between;
 }
-.discription {
+.discription{
     width: 100%;
     padding: 24px 7px 23px 21px;
     box-sizing: border-box;
